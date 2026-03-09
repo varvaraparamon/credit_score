@@ -28,24 +28,24 @@
 *   **Тестирование:** Pytest
 
 ## 4. Структура репозитория
-.
-├── backend/
-│ ├── app.py # Основной файл API-сервера
-│ └── requirements.txt # Зависимости для бэкенда
-├── frontend/
-│ ├── index.html # Главная страница с формой
-│ ├── style.css # Стили страницы
-│ └── script.js # Скрипт для взаимодействия с API
-├── models/
-│ ├── model.pkl # Сериализованная модель (baseline)
-│ └── preprocessor.pkl # Сериализованный препроцессор (если требуется)
-├── notebooks/
-│ ├── 1_initial_eda.ipynb # Первичный разведочный анализ
-│ └── 2_model_training.ipynb # Обучение и сохранение baseline-модели
-├── tests/
-│ ├── test_api.py # Юнит-тесты для API
-│ └── test_e2e.py # Сквозные тесты
-├── data/ # Директория для данных (в .gitignore)
-├── .gitignore # Список игнорируемых файлов
-├── README.md # Документация проекта
-└── requirements.txt # Общие зависимости Python
+  .
+  ├── backend/
+  │ ├── app.py # Основной файл API-сервера
+  │ └── requirements.txt # Зависимости для бэкенда
+  ├── frontend/
+  │ ├── index.html # Главная страница с формой
+  │ ├── style.css # Стили страницы
+  │ └── script.js # Скрипт для взаимодействия с API
+  ├── models/
+  │ ├── model.pkl # Сериализованная модель (baseline)
+  │ └── preprocessor.pkl # Сериализованный препроцессор (если требуется)
+  ├── notebooks/
+  │ ├── 1_initial_eda.ipynb # Первичный разведочный анализ
+  │ └── 2_model_training.ipynb # Обучение и сохранение baseline-модели
+  ├── tests/
+  │ ├── test_api.py # Юнит-тесты для API
+  │ └── test_e2e.py # Сквозные тесты
+  ├── data/ # Директория для данных (в .gitignore)
+  ├── .gitignore # Список игнорируемых файлов
+  ├── README.md # Документация проекта
+  └── requirements.txt # Общие зависимости Python
