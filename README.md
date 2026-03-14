@@ -38,11 +38,11 @@
   │ ├── style.css # Стили страницы
   │ └── script.js # Скрипт для взаимодействия с API
   ├── models/
-  │ ├── model.pkl # Сериализованная модель (baseline)
-  │ └── preprocessor.pkl # Сериализованный препроцессор (если требуется)
+  │ ├── model.pkl # Сериализованная модель 
+  │ └── preprocessor.pkl # Сериализованный препроцессор 
   ├── notebooks/
   │ ├── 1_initial_eda.ipynb # Первичный разведочный анализ
-  │ └── 2_model_training.ipynb # Обучение и сохранение baseline-модели
+  │ └── 2_model_training.ipynb # Обучение и сохранение модели
   ├── tests/
   │ ├── test_api.py # Юнит-тесты для API
   │ └── test_e2e.py # Сквозные тесты
